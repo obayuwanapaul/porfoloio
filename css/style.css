@@ -1,0 +1,127 @@
+html {
+  font-size: 3vh;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  letter-spacing: 1px !important;
+  font-weight: 400;
+  /*    line-height: 72px;*/
+}
+
+/*text*/
+
+h2 {
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 46px;
+}
+
+/*
+.hey {
+    font-size: 40px;
+}
+*/
+
+p {
+  font-size: 1rem;
+}
+
+.header {
+  background-image: url("../img/macos_sierra_2-wallpaper-1366x768.jpg");
+  height: 100vh;
+}
+
+.overlay {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  background: rgb(0, 0, 0, 0.79);
+  top: 0;
+  left: 0;
+}
+
+.navbar .nav-link {
+  color: #fff;
+}
+
+[href*="index.html"] {
+  color: green !important;
+}
+
+.description {
+  position: absolute;
+  top: 50%;
+  left: 36%;
+  /* translate: (-50%, -50%); */
+}
+
+.more {
+  position: absolute;
+  top: 60%;
+  left: 36%;
+}
+
+.header-img h1 {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.mx-line {
+  width: 50px;
+  height: 4px;
+  background: green;
+}
+
+.service_page {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-auto-rows: repeat(2, auto);
+  grid-gap: 20px;
+}
+
+/*
+.frontend {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(2, auto);
+    grid-column-gap: 20px;
+   
+}
+*/
+
+.frontend {
+  display: flex;
+  flex-direction: row;
+}
+
+.frontend .icon {
+  width: 20%;
+  /*    border: 2px solid #000;*/
+  padding-right: 20px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #0074d9;
+  border-radius: 50%;
+}
+
+@media (max-width: 992px) {
+  .frontend {
+    display: flex;
+    flex-direction: column;
+  }
+}
